@@ -41,7 +41,7 @@ jobs:
 
     - name: Load upstream commits
       run : |
-        git remote add offical https://github.com/3gZ2jA/helloworld.git
+        git remote add offical https://github.com/fw876/helloworld.git
         git fetch offical
         git pull offical master
 
